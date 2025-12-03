@@ -1,0 +1,58 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="container px-0 hero">
+    <div class="hero-box">
+        <img src="/Content/Images/bg_banner.jpg" alt="HUIT Hotel" class="hero-img" />
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-text">
+            <h2>Giảm giá 50%</h2>
+            <p>Cam kết 50% cho khách hàng đặt phòng standard room vào tháng này.</p>
+        </div>
+
+        <div class="booking-card p-4">
+            <h4 class="mb-3">Đặt phòng ngay</h4>
+            <form>
+                <div class="mb-2">
+                    <label class="form-label">Ngày đến</label>
+                    <input type="date" class="form-control" />
+                </div>
+                <div class="mb-2">
+                    <label class="form-label">Ngày đi</label>
+                    <input type="date" class="form-control" />
+                </div>
+                <div class="mb-2">
+                    <label class="form-label">Loại phòng</label>
+                    <select class="form-control">
+                        <option>Chọn loại phòng</option>
+                        <option>Phòng Đơn</option>
+                        <option>Phòng Đôi</option>
+                        <option>Phòng Gia Đình</option>
+                        <option>Phòng Vip</option>
+                    </select>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-6">
+                        <label class="form-label">Người lớn</label>
+                        <input class="form-control" value="2" />
+                    </div>
+                    <div class="col-6">
+                        <label class="form-label">Trẻ em</label>
+                        <input class="form-control" value="0" />
+                    </div>
+                </div>
+                <button type="submit" class="btn w-100" style="background:linear-gradient(135deg,#00AEEF,#007ACC);color:#fff;border:none;">
+                    Đặt ngay
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5 mb-5">
+    <h3 class="mb-4" style="color:#2B2D42;">Phòng nổi bật</h3>
+    <!-- ... -->
+</div>
