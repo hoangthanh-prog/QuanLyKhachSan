@@ -24,7 +24,7 @@ namespace QL_KhachSan.Controllers
     };
             ViewBag.PriceRangeList = new SelectList(listKhoangGia, "Value", "Text", priceRange);
 
-            var danhSachHangPhong = db.BienThePhongs.Select(x => x.BienThe).Distinct().ToList();
+            var danhSachHangPhong = db.LoaiPhongs.Select(x => x.TenLoai).Distinct().ToList();
             ViewBag.HangPhongList = new SelectList(danhSachHangPhong, keyword);
 
             var query = db.BienThePhongs
