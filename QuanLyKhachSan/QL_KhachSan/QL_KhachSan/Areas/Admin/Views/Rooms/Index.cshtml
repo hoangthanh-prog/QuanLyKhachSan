@@ -1,0 +1,33 @@
+﻿@model IEnumerable<QL_KhachSan.Models.Phong>
+
+<h2>Danh sách phòng</h2>
+
+<a href="@Url.Action("Create")" class="btn btn-primary">Thêm phòng</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Phòng</th>
+            <th>Loại</th>
+            <th>Giá</th>
+            <th>Trạng thái</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.RoomNumber</td>
+                <td>@item.RoomType</td>
+                <td>@item.Price</td>
+                <td>@(item.IsAvailable ? "Trống" : "Đã đặt")</td>
+                <td>
+                    @Html.ActionLink("Sửa", "Edit", new { id = item.RoomId }) |
+                    @Html.ActionLink("Xóa", "Delete", new { id = item.RoomId })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

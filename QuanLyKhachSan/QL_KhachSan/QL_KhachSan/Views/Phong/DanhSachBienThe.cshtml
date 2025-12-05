@@ -1,0 +1,66 @@
+﻿@model IEnumerable<QL_KhachSan.Models.BienThePhong>
+
+@{
+    ViewBag.Title = "Danh sách phòng";
+
+    string keyword = ViewBag.Keyword as string ?? "";
+    decimal? minPrice = ViewBag.MinPrice as decimal?;
+    decimal? maxPrice = ViewBag.MaxPrice as decimal?;
+    string sort = ViewBag.Sort as string ?? "gia_asc";
+}
+
+<div class="p-4 mb-4 rounded-3" style="background: linear-gradient(135deg,#00AEEF,#004E7C); color:white;">
+    <div class="row align-items-center">
+        <div class="col-md-8">
+            <h2 class="fw-bold mb-2">Khám phá phòng tại HUIT Hotel</h2>
+            <p class="mb-0">
+                Chọn hạng phòng phù hợp với chuyến đi của bạn – đầy đủ tiện nghi, giá tốt, vị trí thuận tiện.
+            </p>
+        </div>
+        <div class="col-md-4 text-md-end mt-3 mt-md-0">
+            <span class="badge bg-light text-dark p-2">
+                @(Model?.Count() ?? 0) hạng phòng đang mở đặt
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="card shadow-sm mb-4">
+    <div class="card-body">
+        <h5 class="card-title mb-3">Tìm kiếm hạng phòng</h5>
+
+        @using (Html.BeginForm("DanhSachBienThe", "Phong", FormMethod.Get, new { @class = "row gy-3" }))
+        {
+            <div class="col-md-4">
+                <label class="form-label">Tên hạng phòng</label>
+                <input type="text"
+                       name="keyword"
+                       value="@keyword"
+                       class="form-control"
+                       placeholder="VD: Deluxe, Suite, View biển..." />
+            </div>
+
+            <div class="col-md-2">
+                <label class="form-label">Giá từ (VNĐ)</label>
+                <input type="number"
+                       name="minPrice"
+                       min="0"
+                       value="@(minPrice.HasValue ? minPrice.Value.ToString() : "")"
+                       class="form-control" />
+            </div>
+
+            <div class="col-md-2">
+                <label class="form-label">Đến (VNĐ)</label>
+                <input type="number"
+                       name="maxPrice"
+                       min="0"
+                       value="@(maxPrice.HasValue ? maxPrice.Value.ToString() : "")"
+                       class="form-control" />
+            </div>
+
+            <div class="col-md-3">
+                <label class="form-label">Sắp xếp theo</label>
+                <select name="sort" class="form-select">
+                    <option value="gia_asc" @(sort == "gia_asc" ? "selected" : "")>Giá tăng dần</option>
+                    <option value="gia_desc" @(sort == "gia_desc" ? "selected" : "")>Giá giảm dần</option>
+                    <option value="trong_desc" @(sort == "trong_desc" ? "selected" : ""

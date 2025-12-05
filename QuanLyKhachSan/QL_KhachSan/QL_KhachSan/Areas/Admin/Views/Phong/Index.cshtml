@@ -1,0 +1,36 @@
+﻿@model IEnumerable<QL_KhachSan.Models.Phong>
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+    ViewBag.Title = "Danh sách phòng";
+}
+<p>
+    @Html.ActionLink("Thêm phòng", "Create", null, new { @class = "btn btn-success" })
+</p>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Mã</th>
+            <th>Tên phòng</th>
+            <th>Tình trạng</th>
+            <th>Biến thể</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var p in Model)
+        {
+            <tr>
+                <td>@p.MaPhong</td>
+                <td>@p.TenPhong</td>
+                <td>@p.TinhTrang</td>
+                <td>@p.MaBienThe</td>
+                <td>
+                    @Html.ActionLink("Chi tiết", "Details", new { id = p.MaPhong }, new { @class = "btn btn-info btn-sm" })
+                    @Html.ActionLink("Sửa", "Edit", new { id = p.MaPhong }, new { @class = "btn btn-warning btn-sm" })
+                    @Html.ActionLink("Xóa", "Delete", new { id = p.MaPhong }, new { @class = "btn btn-danger btn-sm" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,135 @@
+﻿@model QL_KhachSan.Models.ViewModels.DashboardViewModel
+@{
+    ViewBag.Title = "Dashboard";
+}
+
+<div class="container-fluid mt-3">
+
+    <h3 class="fw-bold mb-4">Tổng quan</h3>
+    <p class="text-muted">Chào mừng trở lại! Đây là những gì đang diễn ra hôm nay.</p>
+
+    <!-- 4 thẻ thống kê -->
+    <div class="row g-3">
+
+        <!-- Tổng số phòng -->
+        <div class="col-md-3">
+            <div class="p-3 border rounded shadow-sm bg-white">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <span class="text-muted small">Tổng số phòng</span>
+                        <h3 class="fw-bold">@Model.TongSoPhong</h3>
+                        <small class="text-success">+ @Model.TangPhongThangNay phòng</small>
+                    </div>
+                    <div class="fs-2 text-primary">
+                        <i class="bi bi-building"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Phòng đã đặt -->
+        <div class="col-md-3">
+            <div class="p-3 border rounded shadow-sm bg-white">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <span class="text-muted small">Phòng đã đặt</span>
+                        <h3 class="fw-bold">@Model.SoPhongDaDat</h3>
+                        <small class="text-success">@Model.TiLeLapDay% lấp đầy</small>
+                    </div>
+                    <div class="fs-2 text-primary">
+                        <i class="bi bi-people"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Nhận phòng hôm nay -->
+        <div class="col-md-3">
+            <div class="p-3 border rounded shadow-sm bg-white">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <span class="text-muted small">Nhận phòng hôm nay</span>
+                        <h3 class="fw-bold">@Model.NhanPhongHomNay</h3>
+                        <small class="text-muted">@Model.KhachDuKienNgayMai khách dự kiến ngày mai</small>
+                    </div>
+                    <div class="fs-2 text-primary">
+                        <i class="bi bi-calendar-check"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Doanh thu -->
+        <div class="col-md-3">
+            <div class="p-3 border rounded shadow-sm bg-white">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <span class="text-muted small">Doanh thu (Tháng)</span>
+                        <h3 class="fw-bold">@String.Format("{0:N0}đ", Model.DoanhThuThang)</h3>
+                        <small class="text-success">+@String.Format("{0:N0}", Model.TangTruongDoanhThu) đ so với tháng trước</small>
+                    </div>
+                    <div class="fs-2 text-primary">
+                        <i class="bi bi-cash-stack"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Progress + booking -->
+    <div class="row g-3 mt-4">
+
+        <!-- Phòng theo loại -->
+        <div class="col-md-7">
+            <div class="p-3 border rounded shadow-sm bg-white">
+                <h5 class="fw-bold mb-3">Tình trạng phòng theo loại</h5>
+
+                @foreach (var item in Model.PhongTheoLoai)
+                {
+                    <div class="d-flex justify-content-between small fw-bold">
+                        <span>@item.TenLoai</span>
+                        <span>@item.DaDat/@item.Tong đã đặt</span>
+                    </div>
+
+                    <div class="progress mb-3" style="height: 18px;">
+                        <div class="progress-bar bg-primary"
+                             role="progressbar"
+                             style="width:@item.PhanTram%"
+                             aria-valuenow="@item.PhanTram"
+                             aria-valuemin="0"
+                             aria-valuemax="100">
+                            @item.PhanTram%
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+
+        <!-- Booking gần đây -->
+        <div class="col-md-5">
+            <div class="p-3 border rounded shadow-sm bg-white">
+                <h5 class="fw-bold mb-3">Đặt phòng gần đây</h5>
+
+                @foreach (var b in Model.BookingGanDay)
+                {
+                    <div class="d-flex justify-content-between align-items-center mb-3 p-2 border rounded bg-light">
+                        <div>
+                            <strong>@b.KhachHang</strong><br />
+                            <small>@b.TenPhong</small><br />
+                            <small class="text-muted">@b.ThoiGian.ToString("dd/MM/yyyy")</small>
+                        </div>
+
+                        <span class="badge
+                            @(b.TrangThai == "Đã xác nhận" ? "bg-success" :
+                              b.TrangThai == "Chờ xử lý" ? "bg-warning text-dark" : "bg-secondary")">
+                            @b.TrangThai
+                        </span>
+                    </div>
+                }
+            </div>
+        </div>
+
+    </div>
+
+</div>

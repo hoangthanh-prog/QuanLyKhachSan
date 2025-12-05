@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Đăng nhập nhân viên";
+}
+
+<h2>Đăng nhập nhân viên</h2>
+
+@if (ViewBag.Error != null)
+{
+    <div class="text-danger">@ViewBag.Error</div>
+}
+
+@using (Html.BeginForm("DangNhapNhanVien", "Account", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="mb-3">
+        <label>Tài khoản</label>
+        <input type="text" name="TaiKhoan" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Mật khẩu</label>
+        <input type="password" name="MatKhau" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-warning">Đăng nhập</button>
+}

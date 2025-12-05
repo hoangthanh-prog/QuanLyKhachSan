@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - HUIT Hotel</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body style="background:#F5F9FC;">
+    <nav class="navbar navbar-expand-lg" style="background:#00AEEF;">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center text-white" href="@Url.Action("Index","Home")">
+                <img src="~/Content/Images/logo.png" alt="logo" height="55" class="me-2" />
+                <span class="fw-bold">HUIT Hotel</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                    aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav ms-3 me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-white fw-semibold" href="@Url.Action("Index","Home")">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="@Url.Action("DanhSachBienThe", "Phong")">Phòng</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Khuyến mãi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Giới thiệu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Dịch vụ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Liên hệ</a>
+                    </li>
+                </ul>
+
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Tìm phòng..." aria-label="Search" />
+                    <button class="btn" type="submit" style="border:1px solid #FFFFFF;color:#FFFFFF;">Tìm</button>
+                </form>
+
+                @if (Session["LoaiTK"] == null)
+                {
+                    <a href="@Url.Action("DangNhapKhachHang","Account")"
+                       class="btn ms-3 text-white"
+                       style="background:#004E7C;border:none;">
+                        Đăng nhập
+                    </a>
+                }
+                else if (Session["LoaiTK"].ToString() == "KhachHang")
+                {
+                    <span class="ms-3 text-white fw-bold">
+                        Xin chào, @Session["TenKH"]
+                    </span>
+
+                    <a href="@Url.Action("DangXuat","Account")"
+                       class="btn ms-3 text-white"
+                       style="background:#004E7C;border:none;">
+                        Đăng xuất
+                    </a>
+                }
+                else if (Session["LoaiTK"].ToString() == "NhanVien")
+                {
+                    <a href="@Url.Action("Index","Admin")"
+                       class="btn ms-3 text-white"
+                       style="background:#0077B6;border:none;">
+                        Trang Admin
+                    </a>
+
+                    <a href="@Url.Action("DangXuat","Account")"
+                       class="btn ms-2 text-white"
+                       style="background:#004E7C;border:none;">
+                        Đăng xuất
+                    </a>
+                }
+            </div>
+        </div>
+    </nav>
+
+    <div class="container body-content mt-4">
+        @RenderBody()
+        <hr />
+    </div>
+
+    <footer class="footer pt-4 pb-3" style="background:#004E7C;color:#FFFFFF;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h5 class="fw-bold">HUIT Hotel</h5>
+                    <p>Mang đến cho bạn những trải nghiệm thoải mái và vui vẻ nhất.</p>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <h5 class="fw-bold">Liên kết nhanh</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light text-decoration-none">Trang chủ</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Phòng</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Dịch vụ</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Liên hệ</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <h5 class="fw-bold">Liên hệ</h5>
+                    <p>140 Đường Lê Trọng Tấn, TP.HCM</p>
+                    <p>0909 339 779</p>
+                    <p>contact@huit-hotel.com</p>
+                </div>
+            </div>
+            <hr class="border-light">
+            <div class="text-center">
+                <small>&copy; @DateTime.Now.Year HUIT Hotel. All rights reserved.</small>
+            </div>
+        </div>
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
