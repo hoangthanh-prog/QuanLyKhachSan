@@ -1,0 +1,665 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\ql_khachsan\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|solutionrelative:ql_khachsan\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|e:\\ltw\\quanlykhachsan\\ql_khachsan\\ql_khachsan\\views\\home\\lienhe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|solutionrelative:ql_khachsan\\views\\home\\lienhe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\ql_khachsan\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|solutionrelative:ql_khachsan\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|e:\\ltw\\quanlykhachsan\\ql_khachsan\\ql_khachsan\\views\\home\\dichvu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|solutionrelative:ql_khachsan\\views\\home\\dichvu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|e:\\ltw\\quanlykhachsan\\ql_khachsan\\ql_khachsan\\views\\home\\gioithieu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|solutionrelative:ql_khachsan\\views\\home\\gioithieu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|e:\\ltw\\quanlykhachsan\\ql_khachsan\\ql_khachsan\\views\\home\\khuyenmai.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|solutionrelative:ql_khachsan\\views\\home\\khuyenmai.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\ql_khachsan\\views\\phong\\danhsachbienthe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|solutionrelative:ql_khachsan\\views\\phong\\danhsachbienthe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\ql_khachsan\\controllers\\phongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|solutionrelative:ql_khachsan\\controllers\\phongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\ql_khachsan\\areas\\admin\\controllers\\phongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|solutionrelative:ql_khachsan\\areas\\admin\\controllers\\phongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\ql_khachsan\\views\\phong\\chitietbienthe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|solutionrelative:ql_khachsan\\views\\phong\\chitietbienthe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\ql_khachsan\\areas\\admin\\adminarearegistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|solutionrelative:ql_khachsan\\areas\\admin\\adminarearegistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\ql_khachsan\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|solutionrelative:ql_khachsan\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\ql_khachsan\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|solutionrelative:ql_khachsan\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\ql_khachsan\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|solutionrelative:ql_khachsan\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\ql_khachsan\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|solutionrelative:ql_khachsan\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\ql_khachsan\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|solutionrelative:ql_khachsan\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\ql_khachsan\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|solutionrelative:ql_khachsan\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|e:\\ltw\\quanlykhachsan\\ql_khachsan\\ql_khachsan\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|solutionrelative:ql_khachsan\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|e:\\ltw\\quanlykhachsan\\ql_khachsan\\ql_khachsan\\models\\ql_khachsan.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|solutionrelative:ql_khachsan\\models\\ql_khachsan.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\ql_khachsan\\areas\\admin\\views\\phong\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|solutionrelative:ql_khachsan\\areas\\admin\\views\\phong\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\ql_khachsan\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|solutionrelative:ql_khachsan\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\ql_khachsan\\models\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|solutionrelative:ql_khachsan\\models\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\ql_khachsan\\models\\viewmodels\\phongdetalvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|solutionrelative:ql_khachsan\\models\\viewmodels\\phongdetalvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\ql_khachsan\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|solutionrelative:ql_khachsan\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\ql_khachsan\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|solutionrelative:ql_khachsan\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\ql_khachsan\\areas\\admin\\views\\phong\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|solutionrelative:ql_khachsan\\areas\\admin\\views\\phong\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\ql_khachsan\\areas\\admin\\views\\phong\\deleteconfirmed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|solutionrelative:ql_khachsan\\areas\\admin\\views\\phong\\deleteconfirmed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\ql_khachsan\\areas\\admin\\views\\phong\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|solutionrelative:ql_khachsan\\areas\\admin\\views\\phong\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\ql_khachsan\\areas\\admin\\views\\phong\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|solutionrelative:ql_khachsan\\areas\\admin\\views\\phong\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\ql_khachsan\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|solutionrelative:ql_khachsan\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\ql_khachsan\\areas\\admin\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|solutionrelative:ql_khachsan\\areas\\admin\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\ql_khachsan\\filters\\adminauthorize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|solutionrelative:ql_khachsan\\filters\\adminauthorize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\ql_khachsan\\areas\\admin\\views\\rooms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|solutionrelative:ql_khachsan\\areas\\admin\\views\\rooms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\ql_khachsan\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|solutionrelative:ql_khachsan\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\ql_khachsan\\views\\phong\\xacnhandatphong.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|solutionrelative:ql_khachsan\\views\\phong\\xacnhandatphong.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\ql_khachsan\\views\\account\\dangnhapkhachhang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|solutionrelative:ql_khachsan\\views\\account\\dangnhapkhachhang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\ql_khachsan\\views\\account\\dangnhapnhanvien.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|solutionrelative:ql_khachsan\\views\\account\\dangnhapnhanvien.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\ql_khachsan\\views\\account\\dangkykhachhang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D42CE26-C37D-4AEC-8259-1FDF1E758EA2}|QL_KhachSan\\QL_KhachSan.csproj|solutionrelative:ql_khachsan\\views\\account\\dangkykhachhang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 20,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LienHe.cshtml",
+              "DocumentMoniker": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Views\\Home\\LienHe.cshtml",
+              "RelativeDocumentMoniker": "QL_KhachSan\\Views\\Home\\LienHe.cshtml",
+              "ToolTip": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Views\\Home\\LienHe.cshtml",
+              "RelativeToolTip": "QL_KhachSan\\Views\\Home\\LienHe.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAkwD8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T16:21:43.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DichVu.cshtml",
+              "DocumentMoniker": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Views\\Home\\DichVu.cshtml",
+              "RelativeDocumentMoniker": "QL_KhachSan\\Views\\Home\\DichVu.cshtml",
+              "ToolTip": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Views\\Home\\DichVu.cshtml",
+              "RelativeToolTip": "QL_KhachSan\\Views\\Home\\DichVu.cshtml",
+              "ViewState": "AgIAADsAAAAAAAAAAAAuwE8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T16:21:33.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GioiThieu.cshtml",
+              "DocumentMoniker": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Views\\Home\\GioiThieu.cshtml",
+              "RelativeDocumentMoniker": "QL_KhachSan\\Views\\Home\\GioiThieu.cshtml",
+              "ToolTip": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Views\\Home\\GioiThieu.cshtml",
+              "RelativeToolTip": "QL_KhachSan\\Views\\Home\\GioiThieu.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAuwDQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T16:20:37.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "KhuyenMai.cshtml",
+              "DocumentMoniker": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Views\\Home\\KhuyenMai.cshtml",
+              "RelativeDocumentMoniker": "QL_KhachSan\\Views\\Home\\KhuyenMai.cshtml",
+              "ToolTip": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Views\\Home\\KhuyenMai.cshtml",
+              "RelativeToolTip": "QL_KhachSan\\Views\\Home\\KhuyenMai.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAQwD4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T16:16:12.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Models\\ViewModels\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "QL_KhachSan\\Models\\ViewModels\\DashboardViewModel.cs",
+              "ToolTip": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Models\\ViewModels\\DashboardViewModel.cs",
+              "RelativeToolTip": "QL_KhachSan\\Models\\ViewModels\\DashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T14:14:44.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Areas\\Admin\\Views\\Phong\\Details.cshtml",
+              "RelativeDocumentMoniker": "QL_KhachSan\\Areas\\Admin\\Views\\Phong\\Details.cshtml",
+              "ToolTip": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Areas\\Admin\\Views\\Phong\\Details.cshtml",
+              "RelativeToolTip": "QL_KhachSan\\Areas\\Admin\\Views\\Phong\\Details.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T14:46:14.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PhongController.cs",
+              "DocumentMoniker": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Areas\\Admin\\Controllers\\PhongController.cs",
+              "RelativeDocumentMoniker": "QL_KhachSan\\Areas\\Admin\\Controllers\\PhongController.cs",
+              "ToolTip": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Areas\\Admin\\Controllers\\PhongController.cs",
+              "RelativeToolTip": "QL_KhachSan\\Areas\\Admin\\Controllers\\PhongController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAYwAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T14:17:12.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "QL_KhachSan\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ToolTip": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "QL_KhachSan\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T14:21:56.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "QL_KhachSan\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "QL_KhachSan\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAiwDgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T14:37:38.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DanhSachBienThe.cshtml",
+              "DocumentMoniker": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Views\\Phong\\DanhSachBienThe.cshtml",
+              "RelativeDocumentMoniker": "QL_KhachSan\\Views\\Phong\\DanhSachBienThe.cshtml",
+              "ToolTip": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Views\\Phong\\DanhSachBienThe.cshtml",
+              "RelativeToolTip": "QL_KhachSan\\Views\\Phong\\DanhSachBienThe.cshtml",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-01T06:26:43.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "QL_KhachSan.edmx [Diagram1]",
+              "DocumentMoniker": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Models\\QL_KhachSan.edmx",
+              "RelativeDocumentMoniker": "QL_KhachSan\\Models\\QL_KhachSan.edmx",
+              "ToolTip": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Models\\QL_KhachSan.edmx [Diagram1]",
+              "RelativeToolTip": "QL_KhachSan\\Models\\QL_KhachSan.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-12-05T15:25:52.785Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdminAreaRegistration.cs",
+              "DocumentMoniker": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Areas\\Admin\\AdminAreaRegistration.cs",
+              "RelativeDocumentMoniker": "QL_KhachSan\\Areas\\Admin\\AdminAreaRegistration.cs",
+              "ToolTip": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Areas\\Admin\\AdminAreaRegistration.cs",
+              "RelativeToolTip": "QL_KhachSan\\Areas\\Admin\\AdminAreaRegistration.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T14:16:09.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PhongDetalVM.cs",
+              "DocumentMoniker": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Models\\ViewModels\\PhongDetalVM.cs",
+              "RelativeDocumentMoniker": "QL_KhachSan\\Models\\ViewModels\\PhongDetalVM.cs",
+              "ToolTip": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Models\\ViewModels\\PhongDetalVM.cs",
+              "RelativeToolTip": "QL_KhachSan\\Models\\ViewModels\\PhongDetalVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T15:29:38.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "QL_KhachSan\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "QL_KhachSan\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAiwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T14:43:30.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "QL_KhachSan\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ToolTip": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "QL_KhachSan\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T14:56:51.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Areas\\Admin\\Views\\Phong\\Create.cshtml",
+              "RelativeDocumentMoniker": "QL_KhachSan\\Areas\\Admin\\Views\\Phong\\Create.cshtml",
+              "ToolTip": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Areas\\Admin\\Views\\Phong\\Create.cshtml",
+              "RelativeToolTip": "QL_KhachSan\\Areas\\Admin\\Views\\Phong\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T14:42:59.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DeleteConfirmed.cshtml",
+              "DocumentMoniker": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Areas\\Admin\\Views\\Phong\\DeleteConfirmed.cshtml",
+              "RelativeDocumentMoniker": "QL_KhachSan\\Areas\\Admin\\Views\\Phong\\DeleteConfirmed.cshtml",
+              "ToolTip": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Areas\\Admin\\Views\\Phong\\DeleteConfirmed.cshtml",
+              "RelativeToolTip": "QL_KhachSan\\Areas\\Admin\\Views\\Phong\\DeleteConfirmed.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T14:46:33.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Areas\\Admin\\Views\\Phong\\Edit.cshtml",
+              "RelativeDocumentMoniker": "QL_KhachSan\\Areas\\Admin\\Views\\Phong\\Edit.cshtml",
+              "ToolTip": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Areas\\Admin\\Views\\Phong\\Edit.cshtml",
+              "RelativeToolTip": "QL_KhachSan\\Areas\\Admin\\Views\\Phong\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T14:45:50.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Areas\\Admin\\Views\\Phong\\Index.cshtml",
+              "RelativeDocumentMoniker": "QL_KhachSan\\Areas\\Admin\\Views\\Phong\\Index.cshtml",
+              "ToolTip": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Areas\\Admin\\Views\\Phong\\Index.cshtml",
+              "RelativeToolTip": "QL_KhachSan\\Areas\\Admin\\Views\\Phong\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T14:42:20.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "QL_KhachSan\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "QL_KhachSan\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-30T14:59:13.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "QL_KhachSan\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "QL_KhachSan\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAowGsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-01T07:02:57.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "QL_KhachSan\\App_Start\\RouteConfig.cs",
+              "ToolTip": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "QL_KhachSan\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T02:19:06.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PhongController.cs",
+              "DocumentMoniker": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Controllers\\PhongController.cs",
+              "RelativeDocumentMoniker": "QL_KhachSan\\Controllers\\PhongController.cs",
+              "ToolTip": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Controllers\\PhongController.cs",
+              "RelativeToolTip": "QL_KhachSan\\Controllers\\PhongController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAiwEYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T06:25:26.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ChiTietBienThe.cshtml",
+              "DocumentMoniker": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Views\\Phong\\ChiTietBienThe.cshtml",
+              "RelativeDocumentMoniker": "QL_KhachSan\\Views\\Phong\\ChiTietBienThe.cshtml",
+              "ToolTip": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Views\\Phong\\ChiTietBienThe.cshtml",
+              "RelativeToolTip": "QL_KhachSan\\Views\\Phong\\ChiTietBienThe.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAALEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-01T06:27:07.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AdminAuthorize.cs",
+              "DocumentMoniker": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Filters\\AdminAuthorize.cs",
+              "RelativeDocumentMoniker": "QL_KhachSan\\Filters\\AdminAuthorize.cs",
+              "ToolTip": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Filters\\AdminAuthorize.cs",
+              "RelativeToolTip": "QL_KhachSan\\Filters\\AdminAuthorize.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T14:26:08.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "QL_KhachSan\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "QL_KhachSan\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T15:12:02.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Areas\\Admin\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "QL_KhachSan\\Areas\\Admin\\Views\\Account\\Login.cshtml",
+              "ToolTip": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Areas\\Admin\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "QL_KhachSan\\Areas\\Admin\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T15:14:17.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Areas\\Admin\\Views\\Rooms\\Index.cshtml",
+              "RelativeDocumentMoniker": "QL_KhachSan\\Areas\\Admin\\Views\\Rooms\\Index.cshtml",
+              "ToolTip": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Areas\\Admin\\Views\\Rooms\\Index.cshtml",
+              "RelativeToolTip": "QL_KhachSan\\Areas\\Admin\\Views\\Rooms\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T14:19:49.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "QL_KhachSan\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "QL_KhachSan\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAA3wD4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T07:02:50.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "QL_KhachSan\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "QL_KhachSan\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T05:24:56.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "QL_KhachSan\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "QL_KhachSan\\App_Start\\WebApiConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T02:17:35.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Web.config",
+              "DocumentMoniker": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Web.config",
+              "RelativeDocumentMoniker": "QL_KhachSan\\Web.config",
+              "ToolTip": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Web.config",
+              "RelativeToolTip": "QL_KhachSan\\Web.config",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAqwFAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-12-03T02:17:19.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "QL_KhachSan\\App_Start\\BundleConfig.cs",
+              "ToolTip": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "QL_KhachSan\\App_Start\\BundleConfig.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T02:19:02.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "FilterConfig.cs",
+              "DocumentMoniker": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\App_Start\\FilterConfig.cs",
+              "RelativeDocumentMoniker": "QL_KhachSan\\App_Start\\FilterConfig.cs",
+              "ToolTip": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\App_Start\\FilterConfig.cs",
+              "RelativeToolTip": "QL_KhachSan\\App_Start\\FilterConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T02:19:04.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "XacNhanDatPhong.cshtml",
+              "DocumentMoniker": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Views\\Phong\\XacNhanDatPhong.cshtml",
+              "RelativeDocumentMoniker": "QL_KhachSan\\Views\\Phong\\XacNhanDatPhong.cshtml",
+              "ToolTip": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Views\\Phong\\XacNhanDatPhong.cshtml",
+              "RelativeToolTip": "QL_KhachSan\\Views\\Phong\\XacNhanDatPhong.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-01T08:45:48.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "DangNhapNhanVien.cshtml",
+              "DocumentMoniker": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Views\\Account\\DangNhapNhanVien.cshtml",
+              "RelativeDocumentMoniker": "QL_KhachSan\\Views\\Account\\DangNhapNhanVien.cshtml",
+              "ToolTip": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Views\\Account\\DangNhapNhanVien.cshtml",
+              "RelativeToolTip": "QL_KhachSan\\Views\\Account\\DangNhapNhanVien.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-01T06:17:22.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DangNhapKhachHang.cshtml",
+              "DocumentMoniker": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Views\\Account\\DangNhapKhachHang.cshtml",
+              "RelativeDocumentMoniker": "QL_KhachSan\\Views\\Account\\DangNhapKhachHang.cshtml",
+              "ToolTip": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Views\\Account\\DangNhapKhachHang.cshtml",
+              "RelativeToolTip": "QL_KhachSan\\Views\\Account\\DangNhapKhachHang.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-01T06:16:58.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "DangKyKhachHang.cshtml",
+              "DocumentMoniker": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Views\\Account\\DangKyKhachHang.cshtml",
+              "RelativeDocumentMoniker": "QL_KhachSan\\Views\\Account\\DangKyKhachHang.cshtml",
+              "ToolTip": "E:\\LTW\\QuanLyKhachSan\\QL_KhachSan\\QL_KhachSan\\Views\\Account\\DangKyKhachHang.cshtml",
+              "RelativeToolTip": "QL_KhachSan\\Views\\Account\\DangKyKhachHang.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-01T06:15:46.724Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

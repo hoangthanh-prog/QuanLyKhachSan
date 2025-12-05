@@ -1,0 +1,229 @@
+﻿@using System.Collections.Generic
+@using QL_KhachSan.Models
+@model BienThePhong
+
+
+@{
+    ViewBag.Title = "Chi tiết phòng";
+    var lienQuan = ViewBag.LienQuan as List<QL_KhachSan.Models.BienThePhong>;
+    var tong = Model.Phongs.Count();
+    var trong = Model.Phongs.Count(p => p.TinhTrang.Trim() == "Trống");
+
+    DateTime? ngayDen = ViewBag.NgayDen as DateTime?;
+    DateTime? ngayDi = ViewBag.NgayDi as DateTime?;
+
+    string ngayDenValue = (ngayDen ?? DateTime.Today).ToString("yyyy-MM-dd");
+    string ngayDiValue = (ngayDi ?? DateTime.Today.AddDays(1)).ToString("yyyy-MM-dd");
+}
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-info">@TempData["Message"]</div>
+}
+
+<div class="row">
+    <div class="col-lg-8 mb-4">
+        <div class="card shadow-sm border-0 mb-4">
+            <div class="card-body">
+                <span class="badge bg-info text-dark mb-2">
+                    Hạng phòng: @Model.BienThe
+                </span>
+                <h3 class="card-title mb-1">@Model.LoaiPhong.TenLoai</h3>
+
+                <p class="text-muted mb-2">
+                    <i class="bi bi-geo-alt"></i> HUIT Hotel • TP.HCM
+                </p>
+
+                <h4 class="text-danger fw-bold mb-2">
+                    @String.Format("{0:N0} VNĐ / đêm", Model.GiaBan)
+                </h4>
+
+                <p class="mb-3">
+                    @Model.MoTa
+                </p>
+
+                <p class="small text-muted mb-1">
+                    Tổng số phòng: <strong>@tong</strong> •
+                    Còn trống: <strong>@trong</strong>
+                </p>
+            </div>
+        </div>
+
+        <div class="card shadow-sm border-0">
+            <div class="card-body">
+                <h5 class="card-title mb-3">Chọn phòng</h5>
+
+                @using (Html.BeginForm("DatPhong", "Phong", FormMethod.Post))
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.Hidden("maBienThe", Model.MaBienThe)
+
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label class="form-label">Ngày đến</label>
+                            <input type="date" name="ngayDen" class="form-control" value="@ngayDenValue" />
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Ngày đi</label>
+                            <input type="date" name="ngayDi" class="form-control" value="@ngayDiValue" />
+                        </div>
+                    </div>
+
+                    <div class="table-responsive">
+                        <table class="table table-hover align-middle">
+                            <thead class="table-light">
+                                <tr>
+                                    <th style="width: 80px;">Chọn</th>
+                                    <th>Tên phòng</th>
+                                    <th>Tình trạng</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var p in Model.Phongs.OrderBy(p => p.TenPhong))
+                                {
+                                    var tt = (p.TinhTrang ?? "").Trim();
+                                    bool trongPhong = tt == "Trống";
+
+                                    <tr>
+                                        <td>
+                                            @if (trongPhong)
+                                            {
+                                                <input type="checkbox" name="maPhong" value="@p.MaPhong" />
+                                            }
+                                            else
+                                            {
+                                                <span class="text-danger" title="Phòng đã được đặt">✖</span>
+                                            }
+                                        </td>
+                                        <td>
+                                            <strong>@p.TenPhong</strong>
+                                        </td>
+                                        <td>
+                                            @if (trongPhong)
+                                            {
+                                                <span class="badge bg-success">Trống</span>
+                                            }
+                                            else
+                                            {
+                                                <span class="badge bg-secondary">Đã đặt</span>
+                                            }
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <p class="small text-muted">
+                        Chỉ những phòng ở trạng thái <strong>“Trống”</strong> mới có thể chọn.
+                        Phòng <strong>“Đã đặt”</strong> được đánh dấu ✖ và không thể tích.
+                    </p>
+
+                    <button type="submit" class="btn text-white mt-2" style="background:#00AEEF;">
+                        Đặt phòng
+                    </button>
+                }
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-4 mb-4">
+        <div class="card shadow-sm border-0 mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Tóm tắt đặt phòng</h5>
+                <p class="small text-muted mb-1">Loại phòng / hạng phòng:</p>
+                <p class="mb-2">
+                    <strong>@Model.LoaiPhong.TenLoai - @Model.BienThe</strong>
+                </p>
+
+                <p class="small text-muted mb-1">Giá mỗi đêm:</p>
+                <p class="mb-2 text-danger fw-bold">
+                    @String.Format("{0:N0} VNĐ", Model.GiaBan)
+                </p>
+
+                <p class="small text-muted mb-1">Tình trạng:</p>
+                <p class="mb-0">
+                    Còn <strong>@trong</strong> phòng trống trên tổng <strong>@tong</strong> phòng.
+                </p>
+            </div>
+        </div>
+
+        <div class="card shadow-sm border-0">
+            <div class="card-body">
+                <h6 class="card-title">Lưu ý</h6>
+                <ul class="small mb-0">
+                    <li>Giờ nhận phòng: 14:00</li>
+                    <li>Giờ trả phòng: 12:00</li>
+                    <li>Miễn phí hủy trước 3 ngày.</li>
+                    <li>Giá đã bao gồm thuế và phí dịch vụ.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card shadow-sm border-0 mt-4">
+            <div class="card-body p-0">
+                @{
+                    string linkAnh = "https://via.placeholder.com/600x400?text=HUIT+Hotel";
+
+                    if (Model.HinhAnhs != null && Model.HinhAnhs.Count > 0)
+                    {
+                        var anhObj = Model.HinhAnhs.FirstOrDefault();
+
+                        if (anhObj != null && !string.IsNullOrEmpty(anhObj.HinhAnh1))
+                        {
+                            linkAnh = Url.Content("~/Content/Images/" + anhObj.HinhAnh1.Trim());
+                        }
+                    }
+                }
+
+                <img src="@linkAnh"
+                     alt="@Model.LoaiPhong.TenLoai"
+                     class="img-fluid rounded"
+                     style="width: 100%; height: auto; object-fit: cover;" />
+            </div>
+
+            <div class="card-footer bg-white border-0 text-center py-2">
+                <small class="text-muted fst-italic">Hình ảnh thực tế hạng phòng @Model.BienThe</small>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<hr />
+
+@if (lienQuan != null && lienQuan.Count > 0)
+{
+    <h4 class="mb-3">Các hạng phòng khác bạn có thể thích</h4>
+    <div class="row">
+        @foreach (var item in lienQuan)
+        {
+            var tongLienQuan = item.Phongs.Count();
+            var trongLienQuan = item.Phongs.Count(p => p.TinhTrang.Trim() == "Trống");
+
+            <div class="col-md-4 mb-3">
+                <div class="card h-100 shadow-sm border-0">
+                    <div class="card-body">
+                        <h6 class="card-title mb-1">@item.LoaiPhong.TenLoai</h6>
+                        <span class="badge bg-info text-dark mb-2">
+                            Hạng phòng: @item.BienThe
+                        </span>
+
+                        <p class="small mb-1 text-danger fw-bold">
+                            @String.Format("{0:N0} VNĐ / đêm", item.GiaBan)
+                        </p>
+                        <p class="small text-muted mb-2">
+                            Còn trống: <strong>@trongLienQuan</strong> / @tongLienQuan phòng
+                        </p>
+
+                        <a href="@Url.Action("ChiTietBienThe","Phong", new { id = item.MaBienThe })"
+                           class="btn btn-sm text-white"
+                           style="background:#004E7C;">
+                            Xem chi tiết
+                        </a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}

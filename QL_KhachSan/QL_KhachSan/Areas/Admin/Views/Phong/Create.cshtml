@@ -1,0 +1,48 @@
+﻿@model QL_KhachSan.Models.Phong
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+    ViewBag.Title = "Thêm phòng";
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-7">
+
+            <div class="card shadow-lg border-0 rounded-3">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">➕ Thêm phòng mới</h4>
+                </div>
+
+                <div class="card-body p-4">
+                    @using (Html.BeginForm())
+                    {
+                        @Html.AntiForgeryToken()
+
+                        <div class="mb-3">
+                            @Html.LabelFor(m => m.TenPhong, new { @class = "form-label fw-bold" })
+                            @Html.TextBoxFor(m => m.TenPhong, new { @class = "form-control", placeholder = "Nhập tên phòng..." })
+                        </div>
+
+                        <div class="mb-3">
+                            @Html.LabelFor(m => m.TinhTrang, new { @class = "form-label fw-bold" })
+                            @Html.TextBoxFor(m => m.TinhTrang, new { @class = "form-control", placeholder = "Tình trạng phòng..." })
+                        </div>
+
+                        <div class="mb-3">
+                            @Html.LabelFor(m => m.MaBienThe, new { @class = "form-label fw-bold" })
+                            @Html.TextBoxFor(m => m.MaBienThe, new { @class = "form-control", placeholder = "Nhập mã biến thể..." })
+                        </div>
+
+                        <div class="text-end mt-4">
+                            <button type="submit" class="btn btn-success px-4">
+                                💾 Lưu
+                            </button>
+                            @Html.ActionLink("❌ Hủy", "Index", null, new { @class = "btn btn-secondary px-4 ms-2" })
+                        </div>
+                    }
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

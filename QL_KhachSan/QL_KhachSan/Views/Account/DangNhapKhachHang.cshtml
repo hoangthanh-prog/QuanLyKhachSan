@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "Đăng nhập khách hàng";
+}
+
+<h2>Đăng nhập khách hàng</h2>
+
+@if (ViewBag.Error != null)
+{
+    <div class="text-danger">@ViewBag.Error</div>
+}
+
+@using (Html.BeginForm("DangNhapKhachHang", "Account", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="mb-3">
+        <label>Gmail</label>
+        <input type="email" name="Gmail" class="form-control" required />
+    </div>
+
+    <div class="mb-3">
+        <label>Mật khẩu</label>
+        <input type="password" name="MatKhau" class="form-control" required />
+    </div>
+
+    <button type="submit" class="btn btn-success w-100 mb-2">Đăng nhập</button>
+}
+
+<a href="@Url.Action("DangKyKhachHang", "Account")" class="btn btn-outline-primary w-100">
+    Chưa có tài khoản? Đăng ký khách hàng
+</a>

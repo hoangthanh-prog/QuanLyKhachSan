@@ -1,0 +1,136 @@
+﻿@model IEnumerable<QL_KhachSan.Models.BienThePhong>
+@{
+    ViewBag.Title = "Danh sách phòng";
+
+    string keyword = ViewBag.Keyword as string;
+    decimal? minPrice = ViewBag.MinPrice as decimal?;
+    decimal? maxPrice = ViewBag.MaxPrice as decimal?;
+    string sort = ViewBag.Sort as string ?? "gia_asc";
+}
+
+<div class="p-4 mb-4 rounded-3" style="background: linear-gradient(135deg,#00AEEF,#004E7C); color:white;">
+    <div class="row align-items-center">
+        <div class="col-md-8">
+            <h2 class="fw-bold mb-2">Khám phá phòng tại HUIT Hotel</h2>
+            <p class="mb-0">
+                Chọn hạng phòng phù hợp với chuyến đi của bạn – đầy đủ tiện nghi, giá tốt, vị trí thuận tiện.
+            </p>
+        </div>
+        <div class="col-md-4 text-md-end mt-3 mt-md-0">
+            <span class="badge bg-light text-dark p-2">
+                @Model.Count() hạng phòng đang mở đặt
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="card-body">
+    <h5 class="card-title mb-3">Tìm kiếm hạng phòng</h5>
+
+    @using (Html.BeginForm("DanhSachBienThe", "Phong", FormMethod.Get, new { @class = "row gy-3" }))
+    {
+        <div class="col-md-4">
+            <label class="form-label">Tên hạng phòng</label>
+            @Html.DropDownList("keyword",
+                               ViewBag.HangPhongList as SelectList,
+                               "--- Tất cả hạng phòng ---",
+                               new { @class = "form-select" })
+        </div>
+
+        <div class="col-md-4">
+            <label class="form-label">Khoảng giá</label>
+            @Html.DropDownList("priceRange",
+                               ViewBag.PriceRangeList as SelectList,
+                               "--- Tất cả mức giá ---",
+                               new { @class = "form-select" })
+        </div>
+
+        <div class="col-md-3">
+            <label class="form-label">Sắp xếp theo</label>
+            <select name="sort" class="form-select">
+                <option value="gia_asc" @(ViewBag.Sort == "gia_asc" ? "selected" : "")>Giá tăng dần</option>
+                <option value="gia_desc" @(ViewBag.Sort == "gia_desc" ? "selected" : "")>Giá giảm dần</option>
+                <option value="trong_desc" @(ViewBag.Sort == "trong_desc" ? "selected" : "")>Nhiều phòng trống nhất</option>
+                <option value="trong_asc" @(ViewBag.Sort == "trong_asc" ? "selected" : "")>Ít phòng trống nhất</option>
+            </select>
+        </div>
+
+        <div class="col-md-1 d-flex align-items-end">
+            <button type="submit" class="btn w-100 text-white" style="background:#00AEEF;">
+                Lọc
+            </button>
+        </div>
+    }
+</div>
+
+<br />
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">
+        Không tìm thấy hạng phòng nào phù hợp với tiêu chí của bạn. Thử điều chỉnh lại bộ lọc nhé.
+    </div>
+}
+else
+{
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            var tong = item.Phongs.Count();
+            var trong = item.Phongs.Count(p => p.TinhTrang.Trim() == "Trống");
+            var percent = tong > 0 ? (int)(trong * 100.0 / tong) : 0;
+            var fileAnh = item.HinhAnhs.First().HinhAnh1.Trim();
+            var urlBg = Url.Content("~/Content/Images/" + fileAnh);
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm border-0">
+                    <div style="height:180px; background:url('@urlBg') center /cover no-repeat;">
+                    </div>
+
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title mb-1">
+                            @item.LoaiPhong.TenLoai
+                        </h5>
+
+                        <span class="badge bg-info text-dark mb-2">
+                            Hạng phòng: @item.BienThe
+                        </span>
+
+                        <p class="mb-2 text-muted small" style="min-height:72px;">
+                            @item.MoTa
+                        </p>
+
+                        <p class="mb-1">
+                            <span class="fw-bold text-danger">
+                                @String.Format("{0:N0} VNĐ / đêm", item.GiaBan)
+                            </span>
+                        </p>
+
+                        <p class="mb-2 small">
+                            Phòng trống:
+                            <strong>@trong</strong> / @tong
+                        </p>
+
+                        <div class="mt-auto">
+                            <div class="progress mb-3" style="height:6px;">
+                                <div class="progress-bar"
+                                     role="progressbar"
+                                     style="width:@percent%; background:#00AEEF;"
+                                     aria-valuenow="@percent"
+                                     aria-valuemin="0"
+                                     aria-valuemax="100">
+                                </div>
+                            </div>
+
+                            <a href="@Url.Action("ChiTietBienThe","Phong", new { id = item.MaBienThe })"
+                               class="btn w-100 text-white"
+                               style="background:#004E7C;">
+                                Xem chi tiết & đặt phòng
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}

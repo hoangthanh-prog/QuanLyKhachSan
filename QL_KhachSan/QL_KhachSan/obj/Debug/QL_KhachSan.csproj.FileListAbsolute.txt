@@ -1,0 +1,354 @@
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\QL_KhachSan.dll.config
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\QL_KhachSan.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\QL_KhachSan.pdb
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\csc.exe
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\csc.exe.config
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\csc.rsp
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\csi.exe
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\csi.exe.config
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\csi.rsp
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.Managed.Core.targets
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.AppContext.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Collections.Immutable.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Console.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Globalization.Calendars.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.IO.Compression.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.IO.FileSystem.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Net.Http.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Net.Sockets.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Reflection.Metadata.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.ValueTuple.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Xml.XmlDocument.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Xml.XPath.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\vbc.exe
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\vbc.exe.config
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\vbc.rsp
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\VBCSCompiler.exe
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\VBCSCompiler.exe.config
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\Antlr3.Runtime.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\EntityFramework.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\Microsoft.Web.Infrastructure.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\Newtonsoft.Json.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Net.Http.Formatting.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Web.Helpers.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Web.Http.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Web.Http.WebHost.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Web.Mvc.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Web.Optimization.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Web.Razor.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Web.WebPages.Deployment.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Web.WebPages.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Web.WebPages.Razor.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\WebGrease.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\EntityFramework.xml
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Web.Helpers.xml
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Web.Mvc.xml
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Web.Optimization.xml
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Web.Razor.xml
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Web.WebPages.xml
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Web.WebPages.Deployment.xml
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Web.WebPages.Razor.xml
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\Newtonsoft.Json.xml
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\Antlr3.Runtime.pdb
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Net.Http.Formatting.xml
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Web.Http.xml
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Web.Http.WebHost.xml
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\obj\Debug\QL_KhachSan.csproj.AssemblyReference.cache
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\obj\Debug\QL_KhachSan.csproj.CoreCompileInputs.cache
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\obj\Debug\QL_Khach.BD06C0C0.Up2Date
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\obj\Debug\QL_KhachSan.dll
+E:\LTW\Thư mục mới\QL_KhachSan\QL_KhachSan\obj\Debug\QL_KhachSan.pdb
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\QL_KhachSan.dll.config
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\QL_KhachSan.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\QL_KhachSan.pdb
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\csc.exe
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\csc.exe.config
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\csc.rsp
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\csi.exe
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\csi.exe.config
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\csi.rsp
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.AppContext.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Console.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.IO.Compression.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Net.Http.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Net.Sockets.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.ValueTuple.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Xml.XPath.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\vbc.exe
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\vbc.exe.config
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\vbc.rsp
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\VBCSCompiler.exe
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\Antlr3.Runtime.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\EntityFramework.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\EntityFramework.SqlServer.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\Newtonsoft.Json.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Net.Http.Formatting.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Web.Helpers.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Web.Http.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Web.Http.WebHost.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Web.Mvc.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Web.Optimization.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Web.Razor.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Web.WebPages.Deployment.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Web.WebPages.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Web.WebPages.Razor.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\WebGrease.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\EntityFramework.xml
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\EntityFramework.SqlServer.xml
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Web.Helpers.xml
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Web.Mvc.xml
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Web.Optimization.xml
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Web.Razor.xml
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Web.WebPages.xml
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Web.WebPages.Deployment.xml
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Web.WebPages.Razor.xml
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\Newtonsoft.Json.xml
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\Antlr3.Runtime.pdb
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Net.Http.Formatting.xml
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Web.Http.xml
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\System.Web.Http.WebHost.xml
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\obj\Debug\QL_KhachSan.csproj.AssemblyReference.cache
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\obj\Debug\QL_KhachSan.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\obj\Debug\QL_Khach.BD06C0C0.Up2Date
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\obj\Debug\QL_KhachSan.dll
+C:\Users\MSI\Documents\Nguyễn Phạm Duy Luân\LẬP TRÌNH WEB\Thư mục mới\Thư mục mới\QL_KhachSan\QL_KhachSan\obj\Debug\QL_KhachSan.pdb
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\QL_KhachSan.dll.config
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\QL_KhachSan.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\QL_KhachSan.pdb
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\csc.exe
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\csc.exe.config
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\csc.rsp
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\csi.exe
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\csi.exe.config
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\csi.rsp
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.Managed.Core.targets
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.AppContext.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Collections.Immutable.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Console.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Globalization.Calendars.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.IO.Compression.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.IO.FileSystem.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Net.Http.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Net.Sockets.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Reflection.Metadata.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.ValueTuple.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Xml.XmlDocument.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Xml.XPath.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\vbc.exe
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\vbc.exe.config
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\vbc.rsp
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\VBCSCompiler.exe
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\VBCSCompiler.exe.config
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\Antlr3.Runtime.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\EntityFramework.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\EntityFramework.SqlServer.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\Microsoft.Web.Infrastructure.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\Newtonsoft.Json.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Net.Http.Formatting.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Web.Helpers.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Web.Http.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Web.Http.WebHost.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Web.Mvc.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Web.Optimization.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Web.Razor.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Web.WebPages.Deployment.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Web.WebPages.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Web.WebPages.Razor.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\WebGrease.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\EntityFramework.xml
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\EntityFramework.SqlServer.xml
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Web.Helpers.xml
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Web.Mvc.xml
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Web.Optimization.xml
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Web.Razor.xml
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Web.WebPages.xml
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Web.WebPages.Deployment.xml
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Web.WebPages.Razor.xml
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\Newtonsoft.Json.xml
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\Antlr3.Runtime.pdb
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Net.Http.Formatting.xml
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Web.Http.xml
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Web.Http.WebHost.xml
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\obj\Debug\QL_KhachSan.csproj.AssemblyReference.cache
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\obj\Debug\QL_KhachSan.csproj.CoreCompileInputs.cache
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\obj\Debug\QL_Khach.BD06C0C0.Up2Date
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\obj\Debug\QL_KhachSan.dll
+D:\LapTrinhWeb\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\obj\Debug\QL_KhachSan.pdb
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\QL_KhachSan.dll.config
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\QL_KhachSan.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\QL_KhachSan.pdb
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\csc.exe
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\csc.exe.config
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\csc.rsp
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\csi.exe
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\csi.exe.config
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\csi.rsp
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.Managed.Core.targets
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.AppContext.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Collections.Immutable.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Console.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Globalization.Calendars.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.IO.Compression.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.IO.FileSystem.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Net.Http.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Net.Sockets.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Reflection.Metadata.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.ValueTuple.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Xml.XmlDocument.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Xml.XPath.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\vbc.exe
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\vbc.exe.config
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\vbc.rsp
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\VBCSCompiler.exe
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\roslyn\VBCSCompiler.exe.config
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\Antlr3.Runtime.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\EntityFramework.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\EntityFramework.SqlServer.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\Microsoft.Web.Infrastructure.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\Newtonsoft.Json.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Net.Http.Formatting.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Web.Helpers.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Web.Http.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Web.Http.WebHost.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Web.Mvc.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Web.Optimization.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Web.Razor.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Web.WebPages.Deployment.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Web.WebPages.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Web.WebPages.Razor.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\WebGrease.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\EntityFramework.xml
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\EntityFramework.SqlServer.xml
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Web.Helpers.xml
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Web.Mvc.xml
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Web.Optimization.xml
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Web.Razor.xml
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Web.WebPages.xml
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Web.WebPages.Deployment.xml
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Web.WebPages.Razor.xml
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\Newtonsoft.Json.xml
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\Antlr3.Runtime.pdb
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Net.Http.Formatting.xml
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Web.Http.xml
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\System.Web.Http.WebHost.xml
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\obj\Debug\QL_KhachSan.csproj.AssemblyReference.cache
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\obj\Debug\QL_KhachSan.csproj.CoreCompileInputs.cache
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\obj\Debug\QL_Khach.BD06C0C0.Up2Date
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\obj\Debug\QL_KhachSan.dll
+E:\LTW\QuanLyKhachSan\QL_KhachSan\QL_KhachSan\obj\Debug\QL_KhachSan.pdb
