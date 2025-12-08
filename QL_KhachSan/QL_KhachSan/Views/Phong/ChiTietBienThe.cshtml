@@ -2,7 +2,6 @@
 @using QL_KhachSan.Models
 @model BienThePhong
 
-
 @{
     ViewBag.Title = "Chi tiết phòng";
     var lienQuan = ViewBag.LienQuan as List<QL_KhachSan.Models.BienThePhong>;
@@ -14,6 +13,23 @@
 
     string ngayDenValue = (ngayDen ?? DateTime.Today).ToString("yyyy-MM-dd");
     string ngayDiValue = (ngayDi ?? DateTime.Today.AddDays(1)).ToString("yyyy-MM-dd");
+
+    List<string> galleryImages = new List<string>();
+    if (Model.HinhAnhs != null && Model.HinhAnhs.Count > 0)
+    {
+        foreach (var img in Model.HinhAnhs)
+        {
+            if (!string.IsNullOrEmpty(img.HinhAnh1))
+            {
+                galleryImages.Add(Url.Content("~/Content/Images/" + img.HinhAnh1.Trim()));
+            }
+        }
+    }
+    if (galleryImages.Count == 0)
+    {
+        galleryImages.Add("https://via.placeholder.com/800x500?text=HUIT+Hotel");
+    }
+    string mainImage = galleryImages.First();
 }
 
 @if (TempData["Message"] != null)
@@ -23,26 +39,22 @@
 
 <div class="row">
     <div class="col-lg-8 mb-4">
+
         <div class="card shadow-sm border-0 mb-4">
             <div class="card-body">
                 <h3 class="card-title mb-1">@Model.BienThe</h3>
-
                 <p class="text-muted mb-2">
                     <i class="bi bi-geo-alt"></i> HUIT Hotel • TP.HCM
                 </p>
-
                 <span class="badge bg-info text-dark mb-2">
                     Hạng phòng: @Model.LoaiPhong.TenLoai
                 </span>
-
                 <h4 class="text-danger fw-bold mb-2">
                     @String.Format("{0:N0} VNĐ / đêm", Model.GiaBan)
                 </h4>
-
                 <p class="mb-3">
                     @Model.MoTa
                 </p>
-
                 <p class="small text-muted mb-1">
                     Tổng số phòng: <strong>@tong</strong> •
                     Còn trống: <strong>@trong</strong>
@@ -52,31 +64,64 @@
 
         <div class="card shadow-sm border-0">
             <div class="card-body">
-                <h5 class="card-title mb-3">Chọn phòng</h5>
+                <h5 class="card-title mb-3">Hình ảnh phòng @Model.BienThe</h5>
+
+                <div class="main-image-container mb-3 text-center">
+                    <img id="mainImageDisplay" src="@mainImage"
+                         alt="@Model.LoaiPhong.TenLoai"
+                         class="img-fluid rounded shadow-sm"
+                         style="width: 100%; max-height: 500px; object-fit: cover;" />
+                </div>
+
+                @if (galleryImages.Count > 1)
+                {
+                    <div class="d-flex overflow-auto gap-2 pb-2">
+                        @foreach (var imgUrl in galleryImages)
+                        {
+                            <img src="@imgUrl"
+                                 onclick="changeMainImage(this.src)"
+                                 class="img-thumbnail cursor-pointer border-0 shadow-sm"
+                                 style="width: 100px; height: 70px; object-fit: cover; cursor: pointer; transition: transform 0.2s;"
+                                 onmouseover="this.style.transform='scale(1.05)'"
+                                 onmouseout="this.style.transform='scale(1)'"
+                                 alt="Ảnh phụ" />
+                        }
+                    </div>
+                    <p class="text-muted small mt-2 fst-italic text-center">
+                        (Nhấn vào ảnh nhỏ để xem kích thước lớn)
+                    </p>
+                }
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-4 mb-4">
+
+        <div class="card shadow-sm border-0 mb-3 border-top border-4 border-info">
+            <div class="card-body">
+                <h5 class="card-title mb-3 fw-bold text-uppercase text-primary">Đặt phòng ngay</h5>
 
                 @using (Html.BeginForm("DatPhong", "Phong", FormMethod.Post))
                 {
                     @Html.AntiForgeryToken()
                     @Html.Hidden("maBienThe", Model.MaBienThe)
 
-                    <div class="row mb-3">
-                        <div class="col-md-6">
-                            <label class="form-label">Ngày đến</label>
-                            <input type="date" name="ngayDen" class="form-control" value="@ngayDenValue" />
-                        </div>
-                        <div class="col-md-6">
-                            <label class="form-label">Ngày đi</label>
-                            <input type="date" name="ngayDi" class="form-control" value="@ngayDiValue" />
-                        </div>
+                    <div class="mb-2">
+                        <label class="form-label small fw-bold">Ngày đến</label>
+                        <input type="date" name="ngayDen" class="form-control" value="@ngayDenValue" />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label small fw-bold">Ngày đi</label>
+                        <input type="date" name="ngayDi" class="form-control" value="@ngayDiValue" />
                     </div>
 
-                    <div class="table-responsive">
-                        <table class="table table-hover align-middle">
-                            <thead class="table-light">
+                    <div class="table-responsive mb-3" style="max-height: 300px; overflow-y: auto;">
+                        <table class="table table-sm table-hover align-middle small">
+                            <thead class="table-light sticky-top">
                                 <tr>
-                                    <th style="width: 80px;">Chọn</th>
-                                    <th>Tên phòng</th>
-                                    <th>Tình trạng</th>
+                                    <th style="width: 40px;">#</th>
+                                    <th>Phòng</th>
+                                    <th class="text-end">TT</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -93,20 +138,18 @@
                                             }
                                             else
                                             {
-                                                <span class="text-danger" title="Phòng đã được đặt">✖</span>
+                                                <span class="text-danger" title="Đã đặt">✖</span>
                                             }
                                         </td>
-                                        <td>
-                                            <strong>@p.TenPhong</strong>
-                                        </td>
-                                        <td>
+                                        <td><strong>@p.TenPhong</strong></td>
+                                        <td class="text-end">
                                             @if (trongPhong)
                                             {
                                                 <span class="badge bg-success">Trống</span>
                                             }
                                             else
                                             {
-                                                <span class="badge bg-secondary">Đã đặt</span>
+                                                <span class="badge bg-secondary">Bận</span>
                                             }
                                         </td>
                                     </tr>
@@ -115,26 +158,25 @@
                         </table>
                     </div>
 
-                    <p class="small text-muted">
-                        Chỉ những phòng ở trạng thái <strong>“Trống”</strong> mới có thể chọn.
-                        Phòng <strong>“Đã đặt”</strong> được đánh dấu ✖ và không thể tích.
-                    </p>
+                    <div class="d-grid">
+                        <button type="submit" class="btn text-white py-2 fw-bold" style="background:#00AEEF;">
+                            XÁC NHẬN ĐẶT PHÒNG
+                        </button>
+                    </div>
 
-                    <button type="submit" class="btn text-white mt-2" style="background:#00AEEF;">
-                        Đặt phòng
-                    </button>
+                    <p class="small text-muted mt-2 text-center" style="font-size: 0.8rem;">
+                        Chỉ phòng <strong>"Trống"</strong> mới được chọn.
+                    </p>
                 }
             </div>
         </div>
-    </div>
 
-    <div class="col-lg-4 mb-4">
-        <div class="card shadow-sm border-0 mb-3">
+        <div class="card shadow-sm border-0 mb-3 bg-light">
             <div class="card-body">
                 <h5 class="card-title">Tóm tắt đặt phòng</h5>
                 <p class="small text-muted mb-1">Loại phòng / hạng phòng:</p>
                 <p class="mb-2">
-                    <strong>@Model.LoaiPhong.TenLoai - @Model.BienThe</strong>
+                    <strong>@Model.BienThe - @Model.LoaiPhong.TenLoai</strong>
                 </p>
 
                 <p class="small text-muted mb-1">Giá mỗi đêm:</p>
@@ -151,40 +193,13 @@
 
         <div class="card shadow-sm border-0">
             <div class="card-body">
-                <h6 class="card-title">Lưu ý</h6>
-                <ul class="small mb-0">
+                <h6 class="card-title fw-bold">Lưu ý & Chính sách</h6>
+                <ul class="small mb-0 ps-3 text-muted">
                     <li>Giờ nhận phòng: 14:00</li>
                     <li>Giờ trả phòng: 12:00</li>
                     <li>Miễn phí hủy trước 3 ngày.</li>
-                    <li>Giá đã bao gồm thuế và phí dịch vụ.</li>
+                    <li>Giá đã bao gồm thuế và phí.</li>
                 </ul>
-            </div>
-        </div>
-
-        <div class="card shadow-sm border-0 mt-4">
-            <div class="card-body p-0">
-                @{
-                    string linkAnh = "https://via.placeholder.com/600x400?text=HUIT+Hotel";
-
-                    if (Model.HinhAnhs != null && Model.HinhAnhs.Count > 0)
-                    {
-                        var anhObj = Model.HinhAnhs.FirstOrDefault();
-
-                        if (anhObj != null && !string.IsNullOrEmpty(anhObj.HinhAnh1))
-                        {
-                            linkAnh = Url.Content("~/Content/Images/" + anhObj.HinhAnh1.Trim());
-                        }
-                    }
-                }
-
-                <img src="@linkAnh"
-                     alt="@Model.LoaiPhong.TenLoai"
-                     class="img-fluid rounded"
-                     style="width: 100%; height: auto; object-fit: cover;" />
-            </div>
-
-            <div class="card-footer bg-white border-0 text-center py-2">
-                <small class="text-muted fst-italic">Hình ảnh thực tế hạng phòng @Model.BienThe</small>
             </div>
         </div>
 
@@ -205,18 +220,16 @@
             <div class="col-md-4 mb-3">
                 <div class="card h-100 shadow-sm border-0">
                     <div class="card-body">
-                        <h6 class="card-title mb-1">@item.LoaiPhong.TenLoai</h6>
+                        <h6 class="card-title mb-1">@item.BienThe</h6>
                         <span class="badge bg-info text-dark mb-2">
-                            Hạng phòng: @item.BienThe
+                            Hạng phòng: @item.LoaiPhong.TenLoai
                         </span>
-
                         <p class="small mb-1 text-danger fw-bold">
                             @String.Format("{0:N0} VNĐ / đêm", item.GiaBan)
                         </p>
                         <p class="small text-muted mb-2">
                             Còn trống: <strong>@trongLienQuan</strong> / @tongLienQuan phòng
                         </p>
-
                         <a href="@Url.Action("ChiTietBienThe","Phong", new { id = item.MaBienThe })"
                            class="btn btn-sm text-white"
                            style="background:#004E7C;">
@@ -228,3 +241,16 @@
         }
     </div>
 }
+
+<script>
+    // Hàm JavaScript đổi ảnh chính khi nhấn vào ảnh phụ
+    function changeMainImage(src) {
+        var mainImg = document.getElementById('mainImageDisplay');
+        // Tạo hiệu ứng mờ nhẹ khi đổi
+        mainImg.style.opacity = 0;
+        setTimeout(function() {
+            mainImg.src = src;
+            mainImg.style.opacity = 1;
+        }, 150);
+    }
+</script>
