@@ -146,6 +146,8 @@
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
     <Compile Include="Areas\Admin\Controllers\AccountController.cs" />
     <Compile Include="Areas\Admin\Controllers\DashboardController.cs" />
+    <Compile Include="Areas\Admin\Controllers\DatPhongGiupKhachController.cs" />
+    <Compile Include="Areas\Admin\Controllers\KhachHangsController.cs" />
     <Compile Include="Areas\Admin\Controllers\PhongController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -323,6 +325,14 @@
     <Content Include="Models\QL_KhachSan.edmx.diagram">
       <DependentUpon>QL_KhachSan.edmx</DependentUpon>
     </Content>
+    <Content Include="Areas\Admin\Views\KhachHangs\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\KhachHangs\Delete.cshtml" />
+    <Content Include="Areas\Admin\Views\KhachHangs\Details.cshtml" />
+    <Content Include="Areas\Admin\Views\KhachHangs\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\KhachHangs\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\DatPhongGiupKhach\ChonPhong.cshtml" />
+    <Content Include="Areas\Admin\Views\DatPhongGiupKhach\DatPhong.cshtml" />
+    <Content Include="Areas\Admin\Views\DatPhongGiupKhach\DanhSachDatPhong.cshtml" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />

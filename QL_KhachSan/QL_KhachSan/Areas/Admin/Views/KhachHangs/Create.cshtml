@@ -1,0 +1,65 @@
+﻿@model QL_KhachSan.Models.KhachHang
+
+@{
+    ViewBag.Title = "Trang Thêm Khách Hàng";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-7">
+
+            <div class="card shadow-lg border-0 rounded-3">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">Thêm khách hàng mới</h4>
+                </div>
+
+                <div class="card-body p-4">
+                    @using (Html.BeginForm())
+                    {
+                        @Html.AntiForgeryToken()
+
+                        <div class="mb-3">
+                            @Html.LabelFor(m => m.TenKH, new { @class = "form-label fw-bold" })
+                            @Html.TextBoxFor(m => m.TenKH, new { @class = "form-control", placeholder = "Nhập tên khách hàng..." })
+                        </div>
+
+                        <div class="mb-3">
+                            @Html.LabelFor(m => m.Gmail, new { @class = "form-label fw-bold" })
+                            @Html.TextBoxFor(m => m.Gmail, new { @class = "form-control", placeholder = "Nhập Gmail..." })
+                        </div>
+
+                        <div class="mb-3">
+                            @Html.LabelFor(m => m.MatKhau, new { @class = "form-label fw-bold" })
+                            @Html.TextBoxFor(m => m.MatKhau, new { @class = "form-control", placeholder = "Mật khẩu khách hàng..." })
+                        </div>
+
+                        <div class="mb-3">
+                            @Html.LabelFor(m => m.NgaySinh, new { @class = "form-label fw-bold" })
+                            @Html.TextBoxFor(m => m.NgaySinh, new { @class = "form-control", placeholder = "Nhập ngày sinh..." })
+                        </div>
+
+                        <div class="mb-3">
+                            @Html.LabelFor(m => m.GioiTinh, new { @class = "form-label fw-bold" })
+                            @Html.TextBoxFor(m => m.GioiTinh, new { @class = "form-control", placeholder = "Nhập giới tính..." })
+                        </div>
+
+                        <div class="mb-3">
+                            @Html.LabelFor(m => m.TinhThanh, new { @class = "form-label fw-bold" })
+                            @Html.TextBoxFor(m => m.TinhThanh, new { @class = "form-control", placeholder = "Nhập tỉnh thành..." })
+                        </div>
+
+                        <div class="text-end mt-4">
+                            <button type="submit" class="btn btn-success px-4">
+                                💾 Lưu
+                            </button>
+                            @Html.ActionLink("❌ Hủy", "Index", null, new { @class = "btn btn-secondary px-4 ms-2" })
+                        </div>
+                    }
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+

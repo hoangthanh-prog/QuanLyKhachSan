@@ -62,7 +62,10 @@
         <nav class="nav flex-column">
             <a class="nav-link @((ViewContext.RouteData.Values["controller"].ToString()=="Dashboard"?"active":""))" href="@Url.Action("Index","Dashboard")">📊 Dashboard</a>
             <a class="nav-link @((ViewContext.RouteData.Values["controller"].ToString()=="Phong"?"active":""))" href="@Url.Action("Index","Phong")">🏠 Quản lý phòng</a>
-            
+            <a class="nav-link @((ViewContext.RouteData.Values["controller"].ToString()=="KhachHangs"?"active":""))" href="@Url.Action("Index","KhachHangs")">🙍 Quản lý khách hàng</a>
+            <a class="nav-link @((ViewContext.RouteData.Values["controller"].ToString()=="DatPhongGiupKhach"?"active":""))" href="@Url.Action("ChonPhong","DatPhongGiupKhach")">📝 Đặt phòng giúp khách</a>
+
+
             <a class="nav-link" href="@Url.Action("Logout","Login")">🚪 Đăng xuất</a>
         </nav>
     </div>

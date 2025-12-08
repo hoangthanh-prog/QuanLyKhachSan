@@ -1,0 +1,38 @@
+﻿@model QL_KhachSan.Models.Phong
+
+@{
+    ViewBag.Title = "Đặt Phòng Giúp Khách";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Đặt phòng: @ViewBag.TenPhong</h2>
+
+@using (Html.BeginForm())
+{
+    <input type="hidden" name="maPhong" value="@ViewBag.MaPhong" />
+
+    <div class="mb-3">
+        <label class="form-label">Tên khách</label>
+        <input type="text" name="tenKH" required class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Gmail</label>
+        <input type="email" name="gmail" required class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Ngày bắt đầu</label>
+        <input type="date" name="ngayBD" required class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Ngày kết thúc</label>
+        <input type="date" name="ngayKT" required class="form-control" />
+    </div>
+
+    <button class="btn btn-success">Xác nhận đặt phòng</button>
+    @Html.ActionLink("Hủy đặt phòng", "ChonPhong", null, new { @class = "btn btn-secondary px-4 ms-2" })
+}
+
+

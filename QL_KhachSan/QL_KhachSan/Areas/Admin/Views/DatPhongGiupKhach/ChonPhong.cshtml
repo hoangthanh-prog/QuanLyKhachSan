@@ -1,0 +1,23 @@
+﻿@model IEnumerable<QL_KhachSan.Models.Phong>
+
+@{
+    ViewBag.Title = "Chọn Phòng";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Danh sách phòng</h2>
+
+<div class="row mt-3">
+    @foreach (var p in Model)
+    {
+        <div class="col-md-4">
+            <div class="card shadow p-3 mb-3">
+                <h4>@p.TenPhong</h4>
+                <p>Tình trạng: @p.TinhTrang</p>
+                @Html.ActionLink("Đặt phòng giúp khách", "DatPhong", "DatPhongGiupKhach", new { id = p.MaPhong }, new { @class = "btn btn-primary" })
+            </div>
+        </div>
+    }
+</div>
+
+

@@ -1,0 +1,63 @@
+﻿@model IEnumerable<QL_KhachSan.Models.KhachHang>
+
+@{
+    ViewBag.Title = "Danh Sách Khách Hàng";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row">
+    <div class="col-sm-5">
+        <p>
+            @Html.ActionLink("Thêm khách hàng", "Create", null, new { @class = "btn btn-success" })
+        </p>
+    </div>
+
+    <div class="col-sm-7">
+        @using (Html.BeginForm("Index", "KhachHangs", FormMethod.Get))
+        {
+            <div class="input-group mb-3">
+                <input type="text"
+                       name="search"
+                       class="form-control"
+                       placeholder="Nhập tên, Gmail hoặc Tỉnh thành..."
+                       value="@Request["search"]" />
+
+                <button type="submit" class="btn btn-primary">
+                    Tìm kiếm
+                </button>
+            </div>
+        }
+    </div>
+</div>
+
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Tên khách hàng</th>
+            <th>Gmail</th>
+            <th>Mật khẩu</th>
+            <th>Giới tính</th>
+            <th>Ngày sinh</th>
+            <th>Tỉnh thành</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var p in Model)
+        {
+            <tr>
+                <td>@p.TenKH</td>
+                <td>@p.Gmail</td>
+                <td>@p.MatKhau</td>
+                <td>@p.GioiTinh</td>
+                <td>@p.NgaySinh</td>
+                <td>@p.TinhThanh</td>
+                <td>
+                    @Html.ActionLink("Chi tiết", "Details", new { id = p.MaKH }, new { @class = "btn btn-info btn-sm" })
+                    @Html.ActionLink("Sửa", "Edit", new { id = p.MaKH }, new { @class = "btn btn-warning btn-sm" })
+                    @Html.ActionLink("Xóa", "Delete", new { id = p.MaKH }, new { @class = "btn btn-danger btn-sm" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
