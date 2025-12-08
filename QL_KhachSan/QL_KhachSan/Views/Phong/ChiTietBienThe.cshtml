@@ -243,10 +243,8 @@
 }
 
 <script>
-    // Hàm JavaScript đổi ảnh chính khi nhấn vào ảnh phụ
     function changeMainImage(src) {
         var mainImg = document.getElementById('mainImageDisplay');
-        // Tạo hiệu ứng mờ nhẹ khi đổi
         mainImg.style.opacity = 0;
         setTimeout(function() {
             mainImg.src = src;
