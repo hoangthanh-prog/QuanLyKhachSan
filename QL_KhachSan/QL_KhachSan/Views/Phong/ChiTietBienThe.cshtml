@@ -25,14 +25,15 @@
     <div class="col-lg-8 mb-4">
         <div class="card shadow-sm border-0 mb-4">
             <div class="card-body">
-                <span class="badge bg-info text-dark mb-2">
-                    Hạng phòng: @Model.BienThe
-                </span>
-                <h3 class="card-title mb-1">@Model.LoaiPhong.TenLoai</h3>
+                <h3 class="card-title mb-1">@Model.BienThe</h3>
 
                 <p class="text-muted mb-2">
                     <i class="bi bi-geo-alt"></i> HUIT Hotel • TP.HCM
                 </p>
+
+                <span class="badge bg-info text-dark mb-2">
+                    Hạng phòng: @Model.LoaiPhong.TenLoai
+                </span>
 
                 <h4 class="text-danger fw-bold mb-2">
                     @String.Format("{0:N0} VNĐ / đêm", Model.GiaBan)

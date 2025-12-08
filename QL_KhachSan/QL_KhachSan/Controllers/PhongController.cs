@@ -157,7 +157,7 @@ namespace QL_KhachSan.Controllers
             hd.TongTien = tongTien;
             db.SaveChanges();
 
-            TempData["Message"] = "Đặt phòng thành công! Mã hóa đơn: " + hd.MaHD;
+            TempData["Message"] = "Đặt phòng thành công!";
             TempData["NgayDen"] = start;
             TempData["NgayDi"] = end;
 
